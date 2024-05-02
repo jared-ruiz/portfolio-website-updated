@@ -30,3 +30,8 @@ a {
 .navbar ul li a {
   padding: 10px;
 }
+
+.navbar ul li a:hover {
+  color: black;
+  
+}
