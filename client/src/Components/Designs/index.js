@@ -2,7 +2,7 @@ import React from "react";
 
 function Design() {
     return(
-        <h1 >Designs</h1>
+        <h1 id="center-text">Designs</h1>
     )
 }
 
