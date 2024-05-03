@@ -23,11 +23,19 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: yellow;
+  font-style: oblique;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: yellow;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .navbar ul {
@@ -51,7 +59,11 @@ a {
 }
 
 .hero-image {
-  display: flexbox;
+  background: url(./Assets/Images/hero-image.png);
+  width: 100%;
+  max-width: 100%;
+  height: auto; /* or fixed height if needed */
+  overflow: hidden; /* This prevents scrollbar if image exceeds container size */
 }
 
 #center-text {
