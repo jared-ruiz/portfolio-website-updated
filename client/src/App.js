@@ -10,22 +10,13 @@ function App() {
     <>
     <div>
       <Nav />
-      <Home />
-    </div>
-    <About />
-    
-
-
-    {/* <About />
-    <Designs />
-    <Contact /> */}
-     
-      {/* <Routes>
+    </div>     
+      <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/designs" element={<Designs/>} />
         <Route path="/contact" element={<Contact />} />
-      </Routes> */}
+      </Routes>
    </>
   );
 }

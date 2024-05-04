@@ -9,7 +9,13 @@
 
 h1 {
   margin: 0;
-  color: green;
+}
+
+h3 {
+  margin: 0;
+  color: white;
+  font-size: 35px;
+  padding-left: 8px;
 }
 
 body {
@@ -19,21 +25,25 @@ body {
 
 /*global removal of default colored links*/
 a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 p {
-  color: yellow;
   font-style: oblique;
   margin: 0;
+  font-size: 30px;
+  
 }
 
 .navbar {
   /* display: flex; */
   /* flex-direction: row; */
   /* justify-content: center; */
-  background-color: transparent;
+  /* background-color: rgb(45, 54, 50); */
+  /* background-blend-mode: multiply;
+  background-image: url(./Assets/Images/hero-image.png); */
+  /* background-color: transparent; */
   position: fixed;
   top: 0;
   left: 0;
@@ -68,8 +78,6 @@ p {
 
   /* background-position: center;  */
 
-
-
 }
 
 .hero-image {
@@ -101,4 +109,43 @@ p {
   font-size: 160px;
   color: white;
   justify-content: center;
+  line-height: 135px;
+  /* background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px 50px 10px 50px; */
 }
+
+#test {
+  position: relative;
+  
+}
+
+#home-text-top {
+  position: absolute;
+  /* align-items: center; */
+  bottom: 45%;
+
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: 2px;
+  font-size: 200px;
+  
+}
+
+#about-container {
+  /* background-color: rgb(16, 19, 18);
+  border-radius: 20px; */
+
+}
+
+#about-text {
+  /* justify-content: center;
+  text-align: center; */
+  font-size: 80px;
+  color: white;
+  line-height: 120%;
+  padding: 50px;
+}
+
+
