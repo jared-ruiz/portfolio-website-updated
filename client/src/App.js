@@ -11,9 +11,7 @@ import Contact from "./Components/Contact";
 function App() {
   return (
     <>
-    <div className="nav-parent-cont">
       <Nav />
-    </div>     
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
