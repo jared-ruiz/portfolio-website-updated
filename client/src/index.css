@@ -10,7 +10,6 @@ body, html, h1, h2, h3, h4, h5, a, p, li, ul {
 
 * {
   font-family: Poppins;
-  font-weight: 900;
 }
 
 h3 {
@@ -25,20 +24,14 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-style: oblique;
-  margin: 0;
-  font-size: 30px;
-  
-}
-
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   width: 100%;
-  z-index: 2;
+  /* z-index: 2; */
   padding: 15px;
+  /* background-color: red; */
 }
 
 .navbar ul {
@@ -49,15 +42,15 @@ p {
 .navbar ul li {
   display: inline;
   font-size: 30px;
-  
 }
 
 .navbar ul li a {
   padding: 0 10px 0 10px ;
+  font-weight: 200;
 }
 
 .navbar ul li a:hover {
-  color: black;
+  color: #50727B;
   
 }
 
@@ -78,27 +71,35 @@ p {
   align-items: center;
 }
 
-#test {
-  width: 50vw;
+#home-img {
+  width: 60vw;
 }
-/* .home-logo {
-  background-image: url('./Assets/Images/cropped-home-title.png');
-  height: 379px;
-  width: 1011px;
-  background-repeat:no-repeat;
-  max-width: 1920;
-  max-height: 1080;
-  aspect-ratio: 16/9;
-} */
 
 
 @media only screen and (max-width: 428px) {
-  .navbar {
+  .nav-parent-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 46px;
     position: fixed;
-    
   }
 
-  #test {
+  .navbar {
+    padding: 0px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    text-align: center;
+  }
+
+  .navbar ul li a {
+    font-size: 20px;
+  }
+
+  #home-img {
     width: 80vw;
   }
 }

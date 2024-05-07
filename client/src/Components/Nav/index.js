@@ -2,9 +2,9 @@ import { React, useState } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 
 //handle button toggle status
-const menuActivation = () => {
-    const [isActive, setIsActive] = useState(isActive);
-  }
+// const menuActivation = () => {
+//     const [isActive, setIsActive] = useState(isActive);
+//   }
 
 function Nav() {
     return(
