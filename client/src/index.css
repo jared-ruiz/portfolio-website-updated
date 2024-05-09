@@ -110,14 +110,16 @@ a {
 }
 
 .about-bg2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-direction: row;
   background-image: url(./Assets/Images/about_bg_02.png);
   width: 100vw;
   height: 100vh;
   max-width: 100%;
   max-height: 100%;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-size: cover;
   background-position: center;
@@ -128,29 +130,46 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
+  text-align: start;
+  width: 40%;
+  height: 100vh;
+
+  /* width: 100%;
+  height: 100%; */
 }
 
 #profile-pic {
   border-radius: 55px;
   box-shadow: -10px 5px 30px black;
-  /* width: 100%; */
+  /* margin: 50px; */
+  width: 70%;
+  
+  max-width: 100%;
+  background-size: contain;
 }
 
 .background-text {
-  width: 100%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
   justify-content: center;
-  align-items: center;
+  margin: 55px;
+  /* margin-right: 60px; */
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  
 }
 
 p {
   font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 
