@@ -220,9 +220,29 @@ p {
   margin: 20px;
 }
 
-/* #editing_h2 {
-  
-} */
+.design {
+  display: flex;
+  /* width: 100vw; */
+  height: auto;
+  background-color: rgb(19, 63, 63);
+
+}
+
+.test {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  width: 100vw;
+  gap: 20px
+}
+
+.grid-items {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 
 
 

@@ -7,14 +7,13 @@ function About() {
     return(
         <>
             <div className="about">
-                <div className="about-bg">
+                {/* <div className="about-bg">
                     <h1 id="about-text">About</h1>
-                    {/* <img src={about_text} id='about_text'></img> */}
-                </div>
+                </div> */}
                 <div className="about-bg2">
                     
                     <div className="about-image-container">
-                        <img src={about_me_pic} id="profile-pic"></img>
+                        <img src={about_me_pic} id="profile-pic" alt="front facing image of me"></img>
                     </div>
 
                     <div className="background-text">
@@ -30,13 +29,13 @@ function About() {
                         <p>Adobe Premiere Pro | Adobe Photoshop | Adobe Illustrator | Adobe InDesign | Adobe After Effects | Microsoft Suite
                         </p>
                         <h2 id="editing_h2">Technical</h2>
-                        <p>JavaScript | Python | HTML5 | CSS MongoDB | MySQL | PostgresSQL | Django | Express | Node | Flask | React | Git | Handlebars | Bootstrap | TailwindCSS | Jira | vSphere
+                        <p>JavaScript | Python | HTML5 | CSS | MongoDB | MySQL | PostgresSQL | Django | Express | Node | Flask | React | Git | Handlebars | Bootstrap | TailwindCSS | Jira | vSphere
                         </p>
 
                     </div>
 
                     <div className="profile_img_02">
-                        <img src={about_me_pic_02} id="profile_pic_02_styling"></img>
+                        <img src={about_me_pic_02} id="profile_pic_02_styling" alt="professional picture with tree backdrop"></img>
                     </div>
                         
                 </div>
