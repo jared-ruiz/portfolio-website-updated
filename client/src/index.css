@@ -228,7 +228,7 @@ p {
 
 }
 
-.test {
+.grid {
   display: grid;
   margin-top: 50px;
   grid-template-columns: repeat(3, 1fr);
@@ -241,6 +241,14 @@ p {
   width: 100%;
   height: auto;
   object-fit: contain;
+  box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.grid-items:hover {
+  z-index: 1;
+  transform: translateZ(0) scale(1.03);
+  transition: .2s ease-out;
 }
 
 

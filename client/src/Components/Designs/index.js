@@ -9,7 +9,7 @@ import img6 from "../../Assets/Design_Images/vintage-tech-poster.png";
 function Design() {
     return(
         <div className="design">
-            <div className="test">
+            <div className="grid">
                     <img src={img1} className="grid-items"></img>
                     <img src={img2} className="grid-items"></img>
                     <img src={img3} className="grid-items"></img>
