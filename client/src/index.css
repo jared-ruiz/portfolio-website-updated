@@ -224,7 +224,8 @@ p {
   display: flex;
   /* width: 100vw; */
   height: auto;
-  background-color: rgb(19, 63, 63);
+  /* background-color: rgb(19, 63, 63); */
+  background-image: linear-gradient(rgb(52,73,85), rgb(36,44,51));
 
 }
 
