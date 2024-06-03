@@ -5,6 +5,8 @@ import img3 from "../../Assets/Design_Images/me_02.png";
 import img4 from "../../Assets/Design_Images/red_on_car.png";
 import img5 from "../../Assets/Design_Images/shoes_ad_01.png";
 import img6 from "../../Assets/Design_Images/vintage-tech-poster.png";
+import img7 from "../../Assets/Design_Images/vapor_01.png";
+import img8 from "../../Assets/Design_Images/woman_boots_01.png";
 
 function Design() {
     return(
@@ -16,6 +18,8 @@ function Design() {
                     <img src={img4} className="grid-items"></img>
                     <img src={img5} className="grid-items"></img>
                     <img src={img6} className="grid-items"></img>
+                    <img src={img7} className="grid-items"></img>
+                    <img src={img8} className="grid-items"></img>
             </div>
 
 
