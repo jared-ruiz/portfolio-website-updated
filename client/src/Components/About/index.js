@@ -1,5 +1,5 @@
 import React from "react";
-import about_text from '../../Assets/Images/about_title.png';
+// import about_text from '../../Assets/Images/about_title.png';
 import about_me_pic from '../../Assets/Images/about_me_pic.png';
 import about_me_pic_02 from '../../Assets/Images/about_profile_02.png';
 
@@ -17,9 +17,10 @@ function About() {
                     </div>
 
                     <div className="background-text">
-                        <h2>Background</h2>
-                        <p>I am a seasoned media coordinator and front-end developer with a passion for blending creativity and technology to craft immersive digital experiences. With over 3 years of experience in the industry, I have honed my skills across a diverse range of disciplines, from video editing and corporate design to voice-over work and front-end development.</p>
-                        <p>I am only getting started.</p>
+                        <h2>My name is Jared Ruiz</h2>
+                        <p>I am a seasoned media coordinator, graphic designer, video editor, and novice front-end developer based in San Antonio Texas. I have over <span id="underline">3 years experience</span> working within small business creating and managing media creation and social media edeavors. I draw a lot of my artistic inspiration from the <span id="vapor">80's and 90's advertising aesthetic</span> and truly enjoy the never ending learning process that comes in this field.</p>
+                        <p>Whether it's voice overs for a informational video project, iconography design work, digital advertisement and social media management, I can do it all and more. I look forward to working with you!</p>
+                        <p>- J</p>
                     </div>
                 </div>
                 <div className="about-bg3">

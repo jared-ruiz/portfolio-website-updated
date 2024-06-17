@@ -29,11 +29,11 @@ a {
 } */
 
 .navbar {
-  position: fixed;
+  position: absolute;
   /* top: 0;
   left: 0; */
-  width: 100vw;
-  /* z-index: 2; */
+  width: auto;
+  z-index: 2;
   /* padding: 15px; */
   /* background-color: red; */
 }
@@ -252,6 +252,15 @@ p {
   transition: .2s ease-out;
 }
 
+#underline {
+  text-decoration: underline;
+}
+
+#vapor {
+  background: linear-gradient(to right, #AF47D2, #FF8F00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
 
 

@@ -14,15 +14,15 @@ function Design() {
     return(
         <div className="design">
             <div className="grid">
-                    <img src={img1} className="grid-items"></img>
+                    <img src={img9} className="grid-items"></img>
                     <img src={img2} className="grid-items"></img>
-                    <img src={img3} className="grid-items"></img>
+                    <img src={img8} className="grid-items"></img>
                     <img src={img4} className="grid-items"></img>
                     <img src={img5} className="grid-items"></img>
                     <img src={img6} className="grid-items"></img>
+                    <img src={img3} className="grid-items"></img>
                     <img src={img7} className="grid-items"></img>
-                    <img src={img8} className="grid-items"></img>
-                    <img src={img9} className="grid-items"></img>
+                    <img src={img1} className="grid-items"></img>
                     <img src={img10} className="grid-items"></img>
             </div>
 
