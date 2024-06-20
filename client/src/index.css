@@ -262,6 +262,14 @@ p {
   -webkit-background-clip: text;
 }
 
+.contact {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  /* background-color: rgb(19, 63, 63); */
+  background-image: linear-gradient(rgb(36,44,51), rgb(52,73,85));
+
+}
 
 
 @media only screen and (max-width: 428px) {

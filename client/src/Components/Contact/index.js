@@ -2,7 +2,13 @@ import React from "react";
 
 function Contact() {
     return(
-        <h1 id="center-text">Contact</h1>
+        <div>
+            <div className="contact">
+                <div className="contact-bg">
+                    
+                </div>
+            </div>
+        </div>
         
     )
 }
