@@ -271,6 +271,12 @@ p {
 
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 428px) {
   .nav-parent-cont {
