@@ -102,19 +102,23 @@ a {
   background-repeat: no-repeat;
 }
 
-#about-text {
+.about {
+  background-image: linear-gradient(rgb(36,44,51), rgb(52,73,85), rgb(36,44,51));
+}
+
+/* #about-text {
   text-align: center;
   color: white;
   font-size: 180px;
   width: 60vw;
-}
+} */
 
 .about-bg2 {
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
   display: flex;
   flex-direction: row;
-  background-image: url(./Assets/Images/about_bg_02.png);
+  /* background-image: url(./Assets/Images/about_bg_02.png); */
   width: 100vw;
   height: 100vh;
   max-width: 100%;
@@ -177,7 +181,7 @@ p {
 .about-bg3 {
   display: flex;
   flex-direction: row;
-  background-image: url(./Assets/Images/about_bg_03.png);
+  /* background-image: url(./Assets/Images/about_bg_03.png); */
   width: 100vw;
   height: 100vh;
   max-width: 100%;
@@ -267,15 +271,60 @@ p {
   width: auto;
   height: 100vh;
   /* background-color: rgb(19, 63, 63); */
-  background-image: linear-gradient(rgb(36,44,51), rgb(52,73,85));
+  background-image: linear-gradient(rgb(36,44,51), rgb(52,73,85), rgb(36,44,51));
 
 }
 
-.contact-info {
+.contact-container {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
+
+.button {
+ display: flex;
+ width: 100vw;
+ justify-content: center;
+ align-items: center;
+ margin-top: 70px;
+}
+
+button {
+  font-family: Poppins;
+  width: 620px;
+  height: 50px;
+  outline: none;
+  border: white;
+  border-radius: 8px;
+  background-color: white;
+  transition: .4s;
+  font-size: 25px;
+}
+
+button:hover {
+  background-color: #50727B;
+  color: white;
+}
+
+.email-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  height: auto;
+  /* padding: 20px; */
+}
+
+#gmail-logo {
+  height: 100px;
+  width: auto;
+}
+
+#email-h2 {
+  margin-left: 20px;
+}
+ 
+
 
 
 @media only screen and (max-width: 428px) {
