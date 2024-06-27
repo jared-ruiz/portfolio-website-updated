@@ -268,6 +268,7 @@ p {
 
 .contact {
   display: flex;
+  flex-direction: column;
   width: auto;
   height: 100vh;
   /* background-color: rgb(19, 63, 63); */
@@ -275,21 +276,42 @@ p {
 
 }
 
+.contact-title {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  margin-top: 70px;
+}
+
 .contact-container {
   display: flex;
+  width: 100vw;
   flex-direction: column;
-  margin-top: 50px;
 }
 
 .button {
  display: flex;
  width: 100vw;
+ height: 50px;
  justify-content: center;
  align-items: center;
  margin-top: 70px;
 }
 
+.resume-button {
+ display: flex;
+ width: 100vw;
+ height: 50px;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+}
+
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Poppins;
   width: 620px;
   height: 50px;
@@ -306,24 +328,29 @@ button:hover {
   color: white;
 }
 
-.email-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px;
-  height: auto;
-  /* padding: 20px; */
+button:active {
+  transition: .07s;
+  width: 610px;
+  height:40px;
 }
 
 #gmail-logo {
-  height: 100px;
+  height: 20px;
   width: auto;
+  margin-right: 10px;
 }
 
-#email-h2 {
-  margin-left: 20px;
+#linkedin-logo {
+  height: 25px;
+  width: auto;
+  margin-right: 10px;
 }
- 
+
+#github-logo {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+}
 
 
 

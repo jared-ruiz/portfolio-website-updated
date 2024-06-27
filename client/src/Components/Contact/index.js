@@ -2,20 +2,32 @@ import React from "react";
 import github from '../../Assets/Icons/github-icon.png';
 import linkedin from '../../Assets/Icons/linkedin-icon-03.png';
 import gmail from '../../Assets/Icons/gmail-icon-01.png';
+import resume from '../../Assets/Documents/Resume - Jared Ruiz.pdf'
 
 function Contact() {
     return(
         <div>
             <div className="contact">
+                <div className="contact-title">
+                    <h2>Socials/Resume</h2>
+                </div>
+                
                 <div className="contact-container">
                     
-                    <div className="button">
-                        <button>Resume</button>
+                    <div className="resume-button">
+                        <a href={resume} download={"Resume - Jared Ruiz"}><button>Resume</button></a>
                     </div>
                     
-                    <div className="email-info">
-                        <img src={gmail} id="gmail-logo"></img>
-                        <h2 id="email-h2">Jared707@gmail.com</h2>
+                    <div className="button">
+                        <a href="mailto:Jared707@gmail.com" target="_blank"><button><img id="gmail-logo" src={gmail}></img>Email</button></a>
+                    </div>
+
+                    <div className="button">
+                        <a href="https://www.linkedin.com/in/jaredruiz/" target="_blank"><button><img id="linkedin-logo" src={linkedin}></img>LinkedIn</button></a>
+                    </div>
+
+                    <div className="button">
+                        <a href="https://github.com/jared-ruiz" target="_blank"><button><img id="github-logo" src={github}></img>LinkedIn</button></a>
                     </div>
 
                 </div>
