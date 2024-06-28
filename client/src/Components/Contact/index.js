@@ -9,7 +9,7 @@ function Contact() {
         <div>
             <div className="contact">
                 <div className="contact-title">
-                    <h2>Socials/Resume</h2>
+                    <h2>Resume/Socials</h2>
                 </div>
                 
                 <div className="contact-container">

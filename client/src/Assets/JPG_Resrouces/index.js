@@ -28,7 +28,7 @@ const ImageArray = [
         {
             index: 5,
             title: "vintage_tech_poster",
-            src: require('../../Assets/JPG_Images/vintage-tech-poster.jpg')
+            src: require('../../Assets/JPG_Images/staircase_01.jpg')
         },
         {
             index: 6,
@@ -50,6 +50,11 @@ const ImageArray = [
             title: "vapor_aesth",
             src: require('../../Assets/JPG_Images/vapor_aesth.jpg')
         },
+        {
+            index: 10,
+            title: "staircase",
+            src: require('../../Assets/JPG_Images/vintage-tech-poster.jpg')
+        }
 
     ];
 
