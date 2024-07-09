@@ -326,6 +326,7 @@ button {
 button:hover {
   background-color: #50727B;
   color: white;
+  cursor: pointer;
 }
 
 button:active {
@@ -352,9 +353,112 @@ button:active {
   margin-right: 10px;
 }
 
+@media (max-width:972px) {
+
+  .about-bg2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image-container {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 65px;
+  }
+
+  #profile-pic {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border-radius: 25px;
+    box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
+    /* margin: 50px; */
+    /* width: 70%; */
+    max-width: 50%;
+    min-width: 300px;
+    background-size: contain;
+    /* margin: 20px; */
+  }
+
+  .background-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px 0px 35px;
+    /* margin-right: 60px; */
+  }
+
+  .about-bg3 {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .editing_info {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 35px 0px 35px;
+  }
+
+  .profile_img_02 {
+    width: 100vw;
+    height: auto;
+  }
+
+  #profile_pic_02_styling {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border-radius: 25px;
+    box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
+    /* margin: 50px; */
+    /* width: 70%; */
+    max-width: 50%;
+    min-width: 300px;
+    background-size: contain;
+    /* margin: 20px; */
+  }
+
+  .design {
+    height: auto;
+  }
+
+  .grid {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    width: 100vw;
+    gap: 20px
+  }
+  
+  .grid-items {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+
+  .contact {
+    height: 100vh;
+  }
+}
 
 
 @media only screen and (max-width: 428px) {
+
+  .about-image-container {
+    width: 100vw;
+  }
+
+
   .nav-parent-cont {
     display: flex;
     justify-content: center;
@@ -365,20 +469,58 @@ button:active {
   }
 
   .navbar {
+    display: flex;
     padding: 0px;
-    width: auto;
+    width: 100vw;
+    height: auto;
     justify-content: center;
     align-items: center;
     /* background-color: red; */
     text-align: center;
+
+  }
+
+  .navbar ul {
+    margin: 10px 0px 10px 0px;
   }
 
   .navbar ul li a {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   #home-img {
     width: 80vw;
+  }
+
+  #profile-pic {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .editing_info {
+    margin-top: 360px;
+  }
+
+  .design {
+    height: auto;
+  }
+
+  .grid {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    width: 100vw;
+    gap: 20px
+  }
+  
+  .grid-items {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
+    border-radius: 10px;
   }
 }
   
