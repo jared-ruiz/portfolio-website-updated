@@ -451,8 +451,24 @@ button:active {
   }
 }
 
+@media only screen and (max-width: 666px) {
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: white;
+    border-radius: 8px;
+    background-color: white;
+    transition: .4s;
+    font-size: 25px;
+  }
+}
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 530px) {
 
   .about-image-container {
     width: 100vw;
@@ -521,6 +537,93 @@ button:active {
     object-fit: contain;
     box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
     border-radius: 10px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    /* background-color: rgb(19, 63, 63); */
+    background-image: linear-gradient(rgb(36,44,51), rgb(52,73,85), rgb(36,44,51));
+  
+  }
+  
+  .contact-title {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .contact-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+  }
+  
+  .button {
+   display: flex;
+   width: 100vw;
+   height: 50px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+  }
+  
+  .resume-button {
+   display: flex;
+   width: 100vw;
+   height: 50px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+  }
+  
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    border: white;
+    border-radius: 8px;
+    background-color: white;
+    transition: .4s;
+    font-size: 25px;
+  }
+  
+  button:hover {
+    background-color: #50727B;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:active {
+    transition: .07s;
+    width: 610px;
+    height:40px;
+  }
+  
+  #gmail-logo {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  #linkedin-logo {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  #github-logo {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
   }
 }
   
