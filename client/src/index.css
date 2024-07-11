@@ -470,6 +470,18 @@ button:active {
 
 @media only screen and (max-width: 530px) {
 
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-bg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
   .about-image-container {
     width: 100vw;
   }
@@ -515,7 +527,10 @@ button:active {
   }
 
   .editing_info {
-    margin-top: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 360px; */
   }
 
   .design {
@@ -626,4 +641,4 @@ button:active {
     margin-right: 10px;
   }
 }
-  
+
