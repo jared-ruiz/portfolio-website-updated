@@ -18,7 +18,7 @@ function About() {
 
                     <div className="background-text">
                         <h2>Hello, my name is Jared Ruiz</h2>
-                        <p>I am a seasoned media coordinator, graphic designer, video editor, and novice front-end developer based in San Antonio Texas. I have over <span id="underline">3 years experience</span> working within small business creating and managing media creation and social media edeavors. I draw a lot of my artistic inspiration from the <span id="vapor">80's and 90's advertising aesthetic</span> and truly enjoy the never ending learning process that comes in this field.</p>
+                        <p>I am a seasoned media coordinator, graphic designer, video editor, and novice front-end developer based in San Antonio Texas. I have over <span id="underline">3 years experience</span> working within small business creating and managing media creation and social media endeavors. I draw a lot of my artistic inspiration from the <span id="vapor">80's and 90's advertising aesthetic</span> and truly enjoy the never ending learning process that comes in this field.</p>
                         <p>Whether it's voice overs for a informational video project, iconography design work, digital advertisement and social media management, I can do it all and more. I look forward to working with you!</p>
                         <p>- J</p>
                     </div>

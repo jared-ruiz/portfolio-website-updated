@@ -483,6 +483,10 @@ button:active {
     height: auto;
   }
 
+  .about-bg3 {
+    height: auto;
+  }
+
   .about-image-container {
     width: 100vw;
   }

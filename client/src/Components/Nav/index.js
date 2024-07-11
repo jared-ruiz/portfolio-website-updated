@@ -6,8 +6,8 @@ function Nav() {
         <>
         <nav className="navbar">
             <ul>
-                <li><Link to='/'>About</Link></li>
-                <li><Link to="/designs">Designs</Link></li>
+                <li><Link to='/'>Designs</Link></li>
+                <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav> 
