@@ -473,6 +473,7 @@ button:active {
   .about {
     display: flex;
     flex-direction: column;
+    height: auto;
   }
 
   .about-bg2 {
@@ -543,6 +544,7 @@ button:active {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
     width: 100vw;
+    height: auto;
     gap: 20px
   }
   
@@ -552,6 +554,12 @@ button:active {
     object-fit: contain;
     box-shadow: -10px 5px 30px rgba(0,0,0,0.3);
     border-radius: 10px;
+  }
+
+  .grid-items:hover {
+    z-index: 1;
+    transform: none;
+    /* transition: .2s ease-out; */
   }
 
   .contact {
@@ -619,8 +627,8 @@ button:active {
   
   button:active {
     transition: .07s;
-    width: 610px;
-    height:40px;
+    width: 350px;
+    height: 45px;
   }
   
   #gmail-logo {
