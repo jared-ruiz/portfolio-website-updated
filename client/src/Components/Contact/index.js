@@ -2,7 +2,7 @@ import React from "react";
 import github from '../../Assets/Icons/github-icon.png';
 import linkedin from '../../Assets/Icons/linkedin-icon-03.png';
 import gmail from '../../Assets/Icons/gmail-icon-01.png';
-import resume from '../../Assets/Documents/Resume - Jared Ruiz.pdf'
+import resume from '../../Assets/Documents/Resume(Jared_Ruiz).pdf'
 
 function Contact() {
     return(
