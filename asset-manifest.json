@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b47f18c7.css",
-    "main.js": "/static/js/main.6a512bec.js",
+    "main.js": "/static/js/main.b8416f17.js",
     "static/js/453.22de99da.chunk.js": "/static/js/453.22de99da.chunk.js",
     "static/media/me_texture.jpg": "/static/media/me_texture.dee12ecc8e2ca1a02517.jpg",
     "static/media/staircase_01.jpg": "/static/media/staircase_01.ae29aefb3ff788268072.jpg",
@@ -17,16 +17,16 @@
     "static/media/about_profile_02.png": "/static/media/about_profile_02.eb87a117cd1fa9cacc57.png",
     "static/media/about_me_pic.png": "/static/media/about_me_pic.33c775109ec341abfc43.png",
     "static/media/cropped-home-title.png": "/static/media/cropped-home-title.88d6ad15e04cfab72273.png",
-    "static/media/Resume - Jared Ruiz.pdf": "/static/media/Resume - Jared Ruiz.2f49282120248a6ffeac.pdf",
+    "static/media/Resume(Jared_Ruiz).pdf": "/static/media/Resume(Jared_Ruiz).0cb56befd52cf7c60e2a.pdf",
     "static/media/about_bg_01.png": "/static/media/about_bg_01.170e45a9fcfdd7bdbe0d.png",
     "static/media/home_bg.png": "/static/media/home_bg.5d22607cbfdb6e525f13.png",
     "index.html": "/index.html",
     "main.b47f18c7.css.map": "/static/css/main.b47f18c7.css.map",
-    "main.6a512bec.js.map": "/static/js/main.6a512bec.js.map",
+    "main.b8416f17.js.map": "/static/js/main.b8416f17.js.map",
     "453.22de99da.chunk.js.map": "/static/js/453.22de99da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b47f18c7.css",
-    "static/js/main.6a512bec.js"
+    "static/js/main.b8416f17.js"
   ]
 }
