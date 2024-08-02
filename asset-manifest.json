@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b47f18c7.css",
-    "main.js": "/static/js/main.39c08175.js",
+    "main.css": "/static/css/main.cc6a9abe.css",
+    "main.js": "/static/js/main.be1b932a.js",
     "static/js/453.22de99da.chunk.js": "/static/js/453.22de99da.chunk.js",
     "static/media/me_texture.jpg": "/static/media/me_texture.dee12ecc8e2ca1a02517.jpg",
     "static/media/staircase_01.jpg": "/static/media/staircase_01.ae29aefb3ff788268072.jpg",
@@ -9,6 +9,7 @@
     "static/media/squatting_01.jpg": "/static/media/squatting_01.936117a6289f049832bc.jpg",
     "static/media/squatting_02.jpg": "/static/media/squatting_02.a7edffca432fca994911.jpg",
     "static/media/woman_on_car.jpg": "/static/media/woman_on_car.970fdec5098a816bf941.jpg",
+    "static/media/woman_glasses_02.jpg": "/static/media/woman_glasses_02.c8c8c7688fcbac8ee376.jpg",
     "static/media/naja_poster.jpg": "/static/media/naja_poster.13b7b15fb07703a4c6f3.jpg",
     "static/media/full_body_thinking.jpg": "/static/media/full_body_thinking.961b193e1c0de96f1bf8.jpg",
     "static/media/vintage-tech-poster.jpg": "/static/media/vintage-tech-poster.3f1559a2947bf8a3a27e.jpg",
@@ -23,12 +24,12 @@
     "static/media/about_bg_01.png": "/static/media/about_bg_01.170e45a9fcfdd7bdbe0d.png",
     "static/media/home_bg.png": "/static/media/home_bg.5d22607cbfdb6e525f13.png",
     "index.html": "/index.html",
-    "main.b47f18c7.css.map": "/static/css/main.b47f18c7.css.map",
-    "main.39c08175.js.map": "/static/js/main.39c08175.js.map",
+    "main.cc6a9abe.css.map": "/static/css/main.cc6a9abe.css.map",
+    "main.be1b932a.js.map": "/static/js/main.be1b932a.js.map",
     "453.22de99da.chunk.js.map": "/static/js/453.22de99da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b47f18c7.css",
-    "static/js/main.39c08175.js"
+    "static/css/main.cc6a9abe.css",
+    "static/js/main.be1b932a.js"
   ]
 }
