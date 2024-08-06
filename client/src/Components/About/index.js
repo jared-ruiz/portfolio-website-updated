@@ -27,7 +27,7 @@ function About() {
 
                     <div className="editing_info">
                         <h2 id="editing_h2">Editing Technologies</h2>
-                        <p>Adobe Premiere Pro <span id="vapor">|</span> Adobe Photoshop <span id="vapor">|</span> Adobe Illustrator <span id="vapor">|</span> Adobe InDesign <span id="vapor">|</span> Adobe After Effects <span id="vapor">|</span> Microsoft Suite
+                        <p>Adobe Premiere Pro <span id="vapor">|</span> Adobe Photoshop <span id="vapor">|</span> Adobe Illustrator <span id="vapor">|</span> Adobe InDesign <span id="vapor">|</span> Adobe After Effects <span id="vapor">|</span> Microsoft Suite <span id="vapor">|</span> Figma <span id="vapor">|</span> Canva
                         </p>
                         <h2 id="editing_h2">Technical Skills</h2>
                         <p>JavaScript <span id="vapor">|</span> Python <span id="vapor">|</span> HTML5 <span id="vapor">|</span> CSS <span id="vapor">|</span> MongoDB <span id="vapor">|</span> MySQL <span id="vapor">|</span> PostgresSQL <span id="vapor">|</span> Django <span id="vapor">|</span> Express <span id="vapor">|</span> Node <span id="vapor">|</span> Flask <span id="vapor">|</span> React <span id="vapor">|</span> Git <span id="vapor">|</span> Handlebars <span id="vapor">|</span> Bootstrap <span id="vapor">|</span> TailwindCSS <span id="vapor">|</span> Jira <span id="vapor">|</span> vSphere

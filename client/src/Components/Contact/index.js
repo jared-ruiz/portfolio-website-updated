@@ -27,7 +27,7 @@ function Contact() {
                     </div>
 
                     <div className="button">
-                        <a href="https://github.com/jared-ruiz" target="_blank"><button><img id="github-logo" src={github}></img>LinkedIn</button></a>
+                        <a href="https://github.com/jared-ruiz" target="_blank"><button><img id="github-logo" src={github}></img>GitHub</button></a>
                     </div>
 
                 </div>
