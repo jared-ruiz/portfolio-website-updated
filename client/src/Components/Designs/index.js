@@ -7,7 +7,7 @@ function Design() {
         <div className="design">
             <div className="grid">
                 {ImageArray.map((image) => (
-                   <img loading="lazy" src={image.src} key={image.index} className="grid-items"></img>
+                   <img src={image.src} key={image.index} className="grid-items"></img>
                 ))}
             </div>
         </div>
